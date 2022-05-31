@@ -1,0 +1,83 @@
+#h1_top_nfts{
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(53, 56, 64);
+    margin: 40px 0px 10px;
+    font-weight: 600px;
+}
+#ranking_description{
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    color: #707A83;
+    margin: 16px 0px;
+}
+#heading_container{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+#filters{
+    margin-top: 30px ;
+}
+
+#ranking-list {
+    width: 80%;
+}
+
+#time_btn,#categories_btn,#chains_btn{
+    margin: 1%;
+    box-shadow: none;
+    text-align: left;
+}
+#img1{
+    width: 15%;
+    margin-left: 0;
+}
+#img2{
+    width: 15%;
+    margin-bottom: 4px;
+}
+.filter_imges{
+    height: auto;
+    margin-right: 15px;
+}
+#ranking-list{
+    margin: auto;
+}
+.col-heading{
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    color: rgb(53, 56, 64);
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    align-self: right;
+    width: 10.6%;
+    margin: auto;
+}
+.first-col{
+    color: rgb(53, 56, 64);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    align-self: left;
+    width: 36.4%;
+    font-weight: 600;
+}
+.vol{
+    height: 15px;
+    width: auto;
+}
+.row-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+@media screen and (max-width: 800px) {
+    .none{
+        display: none;
+    }
+}

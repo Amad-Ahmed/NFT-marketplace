@@ -1,0 +1,508 @@
+.NotablePics{
+    width: 400px; 
+    height: 600px;
+    border-radius: 20px;
+}
+
+
+.nft-footer {
+    margin: 0px !important;
+    padding: 16px;
+    border-radius: 0px 0px 20px 20px;
+    border: 1px solid rgb(229, 232, 235);
+    width: 450px;
+    /* box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px; */
+}
+
+.nft-text {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#main-container {
+    margin: 50px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row wrap;
+    align-items: flex-start;
+}
+
+#landing-title {
+    font-size: 40px !important;
+    font-weight: 700 !important;
+    font-family: Poppins, sans-serif;
+}
+
+#landing-subtitle {
+    font-size: 24px !important;
+    margin-right: 25%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: rgb(53, 56, 64);
+    font-family: Poppins, sans-serif;
+}
+
+.img-container {
+    width: 60% !important;
+    height: auto !important;
+    max-width: 100%;
+}
+
+.img-container>img {
+    width: inherit;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#img-landing-page {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.landing-nft {
+    object-fit: cover;
+}
+
+.landing-nft > .col > img, .nft-footer {
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px;
+}
+
+.empty-col {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px !important;
+}
+
+.solana {
+    height: 130px !important;
+    margin-top: 50px;
+    background-image: url('https://static.opensea.io/solana/home-banner.png');
+    width: 100%;
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing-btn1,
+.landing-btn2 {
+    height: 50px !important;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 20px;
+}
+
+.landing-btn1:hover,
+.landing-btn2:hover {
+    cursor: pointer;
+}
+
+.landing-btn1 {
+    background-color: rgb(32, 129, 226);
+    color: white;
+    text-decoration: none;
+}
+
+.landing-btn1:hover {
+    background-color: rgb(28, 112, 196);
+    color: white;
+}
+
+.landing-btn1 a {
+    color:rgb(229, 232, 235);
+    text-decoration: none;
+}
+
+.landing-btn2 {
+    background-color: white;
+    border: 1px solid rgb(32, 129, 226);
+    color: rgb(32, 129, 226);
+}
+
+.landing-btn2:hover {
+    transition: all 0.2s ease 0s;
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+}
+
+.solana h3 {
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(53, 56, 64);
+}
+
+.solana-col {
+    padding-top: 33px;
+}
+
+.solana-btn {
+    margin-left: 200px !important;
+}
+
+@media screen and (min-width: 768px) {
+    .solana {
+        max-width: min(1220px, 100% - 96px);
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
+#main-landing-div {
+    flex: left;
+}
+
+.btn {
+    height: 30%;
+    width: 50%;
+    font-size: 40px;
+}
+
+.link-primary {
+    font-size: 15px;
+    margin-left: 15%;
+}
+
+.div-2 {
+    margin-top: 10%;
+    clear: both;
+    border-style: double;
+    height: 100px;
+}
+
+.btn-align {
+    float: left;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.btn-custom {
+    width: 20%;
+    margin-left: 70%;
+}
+
+.first-div-4 {
+    width: 50%;
+    float: left;
+    margin-top: 1.5%;
+    padding-left: 5%;
+}
+
+.slide-show {
+    margin-top: 10%;
+}
+
+.show {
+    margin-top: 5%;
+}
+
+.features {
+    width: 25%;
+}
+
+.img-setup {
+    margin-left: 30%;
+}
+
+.img-setup2 {
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.heading1 {
+    /* font-weight: bold; */
+    margin-top: 13%;
+    text-align: center;
+}
+
+.heading {
+    /* font-weight: bold; */
+    margin-top: 10%;
+    text-align: center;
+}
+
+.heading2 {
+    /* font-weight: bold; */
+    margin-top: 7%;
+    text-align: center;
+}
+
+.heading3 {
+    /* font-weight: bold; */
+    margin-top: 12%;
+    text-align: center;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+header p {
+    padding: 50px;
+    text-align: center;
+    color: #bebebe;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: darkblue;
+}
+
+.footer>* {
+    /* flex: 1 100%; */
+}
+
+.l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.r-footer {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.r-footer>* {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box a {
+    /* color: #999; */
+}
+
+.h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+}
+
+.b-footer {
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+
+.l-footer p {
+    padding-right: 20%;
+    color: #999;
+}
+
+.copyright {
+    padding-top: 0px;
+    color: white;
+}
+
+.info-box {
+    column-count: 1;
+}
+
+@media screen and (min-width: 600px) {
+    .r-footer>* {
+        flex: 1;
+    }
+    .features {
+        flex-grow: 2;
+    }
+    .l-footer {
+        flex: 1 0px;
+    }
+    .r-footer {
+        flex: 2 0px;
+    }
+}
+
+@media screen and(max-width:1024px) {
+    .landing-nft {
+        width: 200px;
+    }
+
+    .nftDiv {
+        margin-left: 10px;
+    }
+
+    .landing-nft {
+        margin-top: 50px  !important;
+        margin-bottom: 30px !important;
+    }
+
+    .notable-drops div.col {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #landing-title {
+        text-align: left;
+        max-width: 100%;
+        margin-right: 10px;
+    }
+
+    .nftDiv {
+        margin-left: 10px;
+    }
+
+    .landing-nft {
+        /* margin-top: 50px  !important; */
+        margin-bottom: 30px !important;
+    }
+
+    .notable-drops div.col {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 600px) {
+    #landing-title {
+        font-size: 32px;
+        max-width: 550px;
+    }
+    
+    .nftDiv {
+        margin-left: 10px;
+    }
+
+    .landing-nft {
+        /* margin-top: 50px  !important; */
+        margin-bottom: 30px !important;
+    }
+
+    .notable-drops div.col {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .notable-drops {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .nftDiv {
+        margin-left: 10px;
+    }
+
+    .landing-nft {
+        margin-top: 50px  !important;
+        margin-bottom: 30px !important;
+    }
+
+    .notable-drops div.col {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .notable-drops {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .nftDiv {
+        margin-left: 10px;
+    }
+
+    .landing-nft {
+        margin-top: 50px  !important;
+        margin-bottom: 30px !important;
+    }
+
+    .notable-drops div.col {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.c_item{
+    margin: auto;
+    
+}
+@media (max-width: 992px) {
+
+    .notable-drops {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .nftDiv {
+        margin-left: 10px;
+    }
+
+    .landing-nft {
+        margin-top: 50px  !important;
+        margin-bottom: 30px !important;
+    }
+
+    .notable-drops div.col {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.carousel, .slide {
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.carousel-item {
+    margin-top: 30px;
+}
+
+/* .carousel-inner {
+    margin-top: 50px;
+} */
+
+.landing-row > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.landing-nft {
+    cursor: pointer;
+}

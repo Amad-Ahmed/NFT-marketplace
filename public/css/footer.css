@@ -1,0 +1,97 @@
+.footer {
+    padding: 50px;
+    color: #fff;
+    background-color: rgb(24, 104, 183) !important;
+}
+
+.box a {
+    color: white;
+}
+
+#logo_text {
+    color: white;
+}
+
+.h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    /* color: black; */
+}
+
+.level2-footer {
+    flex: 10%;
+    flex-direction: column;
+}
+
+.level1-footer,
+.level0-footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.b-footer {
+    display: block;
+    margin: auto;
+    color: white;
+}
+
+#logo-name {
+    color: white;
+    font-size: 50px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+@media screen and (max-width: 800px) {
+    .h-box {
+        column-count: 1;
+        column-gap: 1.25em;
+    }
+    .b-footer {
+        margin: auto;
+    }
+    .level0-footer,
+    .level1-footer {
+        text-align: center;
+        margin: auto;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .level0-footer {
+        width: 80%;
+        margin: auto;
+    }
+    .level1-footer {
+        text-align: center;
+        flex-direction: column;
+        flex: 25%;
+        /* height: 100%; */
+    }
+    .level2-footer {
+        flex: 10%;
+        flex-direction: column;
+    }
+    .h-box {
+        column-count: 1;
+        column-gap: 1.25em;
+    }
+}

@@ -1,0 +1,148 @@
+.explore {
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: rgb(4, 17, 29);
+    line-height: 110%;
+    margin-top: 30px;
+}
+
+.center-pills {
+    border-bottom: 1px solid rgb(229, 232, 235);
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-top: 30px;
+    display: flex !important;
+    overflow: auto !important;
+    padding: 0px 8px !important;
+}
+
+.nft-card {
+    cursor: pointer;
+}
+
+.pill-head {
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: rgb(53, 56, 64) !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link, .pill-head:hover {
+    background-color: transparent !important;
+    font-weight: 600;
+}
+
+.pill-head.active {
+    /* color: rgb(53, 56, 64) !important; */
+    color: rgb(4, 17, 29) !important;
+    background-color: transparent !important;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 0px;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(24, 104, 183);
+}
+
+.pill-head:hover {
+    color: rgb(4, 17, 29) !important;
+}
+
+.nav-pills>li>a {
+    color: gray !important;
+    font-weight: 200;
+    border-radius: 0px;
+}
+
+.nft-card {
+    margin-top: 30px;
+    height: 373px;
+    border: 1px solid rgb(229, 232, 235);
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nft-banner {
+    height: 200px;
+    width: 100%;
+}
+
+.nft-banner>img {
+    width: inherit;
+    height: 100%;
+    object-fit: contain;
+    border: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nft-img {
+    text-align: center;
+    margin-top: -22px;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(251, 253, 255);
+    border: 3px solid rgb(251, 253, 255);
+    /* box-shadow: rgb(14 14 14 / 60%) 0px 0px 2px 0px; */
+}
+
+.nft-img>img {
+    object-fit: cover;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    justify-content: center;
+}
+
+.nft-name {
+    color: rgb(4, 17, 29);
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 2px;
+}
+
+.nft-author {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 110%;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.by {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(112, 122, 131);
+}
+
+.author-name {
+    font-weight: 500;
+    color: rgb(32, 129, 226);
+}
+
+.nft-desc {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(112, 122, 131);
+}
+
+footer {
+    margin-top: 100px;
+}
+
+.row a {
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+}

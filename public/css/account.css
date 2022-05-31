@@ -1,0 +1,81 @@
+.account-name {
+    font-size: 30px;
+    font-weight: 600;
+    min-height: 40px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
+    color: rgb(53, 56, 64);
+    text-transform: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 2px;
+}
+
+.account-img {
+    text-align: center;
+    margin-top: -63px;
+    height: 126px;
+    width: 126x;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgb(251, 253, 255);
+    border: 3px solid rgb(251, 253, 255); */
+    /* box-shadow: rgb(14 14 14 / 60%) 0px 0px 2px 0px; */
+}
+
+.account-img>img {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.account-header {
+    text-align: center;
+    width: 100%;
+}
+
+.account-info {
+    height: 225px;
+    border: 1px solid rgb(229, 232, 235);
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.account-banner {
+    width: 100%;
+    height: 300px;
+}
+
+.eth {
+
+    height: 15px;
+    width: auto;
+}
+
+.account-id {
+    border-radius: 25px;
+    border: 2px solid lightgray;
+    padding: 5px 15px;
+    background-color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 10px;
+    color: rgb(58, 56, 56);
+}
+.join-date{
+    font-weight: 400px;
+    font-size: 20px;
+    color: rgb(112, 122, 131);
+    font-family: Poppins, sans-serif;
+    text-transform: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-top: 10px;
+
+}

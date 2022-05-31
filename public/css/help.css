@@ -1,0 +1,148 @@
+.logosetting {
+    height: 40px;
+    width: 40px;
+    margin-right: 1%;
+    margin-left: 10%;
+}
+
+.logodesc {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.btnSetting {
+    font-weight: 550;
+}
+
+.col-sm {
+    cursor: pointer;
+}
+
+.vl {
+    border-left: 2px solid rgb(158, 157, 157);
+    height: 50px;
+    margin-right: 1%;
+}
+
+.helpSetting {
+    margin-top: 0.5%;
+    margin-right: 50%;
+}
+
+.formSetting {
+    width: 750px;
+    margin-left: 30%;
+    margin-right: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Poppins, sans-serif !important;
+    font-weight: 400 !important;
+}
+
+.formSetting input {
+    border-radius: 6px !important;
+}
+
+.search-bar-astra {
+    font-size: 0.9rem !important;
+}
+
+.search-wrapper {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px !important;
+    /* border-top-right-radius: 5px !important; */
+}
+
+.search-wrapper>input {
+    padding-left: 30px;
+    /* font-family: Poppins, sans-serif; */
+}
+
+.search-wrapper>img {
+    position: absolute;
+    /* bottom:8px; */
+    /* left:10px; */
+    left: 5px;
+    top: 5px;
+    z-index: 5;
+    width: 25px;
+    height: 25px;
+    opacity: 0.6;
+}
+
+@media (max-width: 576px) {
+    .formSetting {
+        width: 165px;
+    }
+}
+
+@media (max-width: 768px) {
+    .formSetting {
+        width: 68%;
+    }
+}
+
+@media (max-width: 992px) {
+    .formSetting {
+        width: 68%;
+    }
+}
+
+@media (max-width: 1200px) {
+    formSetting {
+        width: 5px;
+    }
+}
+
+.searcDiv {
+    height: 50%;
+    display: block;
+    
+}
+
+.imgOptions {
+    height: 200px;
+    width: 400px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.lastRow {
+    margin-left: 16%;
+}
+
+.lastRow2 {
+    margin-right: 16%;
+}
+
+img.imgOptions:hover {
+    box-shadow: 10px 10px lightblue;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    margin-right: 2%;
+    text-align: center;
+}
+div.card:hover{
+    box-shadow: 10px 10px lightblue;
+}
+
+.cardText {
+    font-weight: 500;
+    margin-top: 10%;
+}
+.reads{
+    background-color: aliceblue;
+    margin-top: 5%;
+    padding-top: 2%;
+    margin-bottom: 4%;
+}
+.readh2 {
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 2%;
+}

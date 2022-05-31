@@ -1,0 +1,80 @@
+.collection-header, .collection-trending > h3 {
+    font-family: Poppins, sans-serif;
+}
+
+.banner-container {
+    border-bottom: 1px solid rgb(229, 232, 235);
+}
+
+.banner-wrapper {
+    height: 220px;
+    display: flex;
+    min-height: 120px;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(229, 232, 235);
+}
+
+.banner-image {
+    height: 600px;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.collection-banner {
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 400ms ease 0s;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.header-container {
+    margin-bottom: 20px;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.header-container > h1 {
+    margin: 26px 0px 26px 0px;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: rgb(4, 17, 29);
+    line-height: 110%;
+    text-align: center;
+}
+
+.collection-trending > h3 {
+    margin: 40px 0px;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 0px;
+    color: rgb(4, 17, 29);
+    line-height: 110%;
+    text-align: center;
+}
+
+.header-description {
+    color: rgb(112, 122, 131);
+    text-align: center;
+    max-width: 800px;;
+    padding: 20px;
+    overflow: hidden;
+    margin: auto;
+    font-size: 16px;
+}
+
+.row a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
