@@ -1,3 +1,40 @@
+<h1 align="center">NFT-Marketplace</h1>
+<h2>Some Snippets of the Website</h2>
+<p>Home Page</p>
+
+
+![image](https://user-images.githubusercontent.com/80278397/179251397-618a79aa-5c0c-4d8b-a9da-4054a7bbd80b.png)
+
+
+
+<p>Wallet Connection</p>
+
+
+
+![image](https://user-images.githubusercontent.com/80278397/179251697-74b87c78-aa7b-4bc8-83b5-adac0c3f877c.png)
+
+
+
+![image](https://user-images.githubusercontent.com/80278397/179251864-59fed862-0eef-4a84-a277-35ba71a36666.png)
+
+
+
+<p>Users can also connect using QR code scanning.</p>
+
+
+
+![image](https://user-images.githubusercontent.com/80278397/179253118-6b547abd-619a-44c7-b31e-15d90ba549c5.png)
+
+
+
+<p>Explore Page</p>
+
+
+![image](https://user-images.githubusercontent.com/80278397/179253289-d75b850f-0339-4721-b359-b230c7c1590b.png)
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
